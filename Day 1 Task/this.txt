@@ -1,0 +1,54 @@
+
+D:\Dev\FSD60Dev>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is B255-4A72
+
+ Directory of D:\Dev\FSD60Dev
+
+15-05-2024  11:45    <DIR>          .
+15-05-2024  10:51    <DIR>          ..
+15-05-2024  11:43    <DIR>          Day 1 Task
+15-05-2024  10:58               385 Demo.txt
+15-05-2024  11:45                16 README.md
+               2 File(s)            401 bytes
+               3 Dir(s)  269,376,532,480 bytes free
+
+D:\Dev\FSD60Dev>git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)        Day 1 Task/
+        Demo.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Dev\FSD60Dev>git add .
+
+D:\Dev\FSD60Dev>git commit -m "New Commit"
+[main 2335344] New Commit
+ 2 files changed, 13 insertions(+)
+ create mode 100644 Day 1 Task/this.txt
+ create mode 100644 Demo.txt
+
+D:\Dev\FSD60Dev>git remote -v
+origin  https://github.com/Dhanam-Bheeshma/FSD60WDT1.git (fetch)
+origin  https://github.com/Dhanam-Bheeshma/FSD60WDT1.git (push)
+
+D:\Dev\FSD60Dev>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (8/8), 757 bytes | 126.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Dhanam-Bheeshma/FSD60WDT1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+D:\Dev\FSD60Dev>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+
+D:\Dev\FSD60Dev>
+
