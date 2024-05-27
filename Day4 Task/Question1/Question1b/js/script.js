@@ -3,8 +3,8 @@
 const function1 = function(string){
           for (var i = 0; i < string.length; i++) {
                 string[i] = string[i].charAt(0).toUpperCase() + string[i].slice(1);
-    console.log(string[i]);
-    result=string[i];
+    console.log(string[0]);
+    result=string[0];
     break;
         }
 
@@ -15,8 +15,7 @@ console.log(function1(["hello world"]));
 (function(string){
        for (var i = 0; i < string.length; i++) {
         string[i] = string[i].charAt(0).toUpperCase() + string[i].slice(1);
-    console.log(string[i]);
-    break;
+    console.log(string[0]);
         }
 
     })(["hello world"]);
