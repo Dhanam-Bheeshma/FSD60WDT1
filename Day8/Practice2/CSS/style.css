@@ -1,0 +1,12 @@
+.heading,span,div{
+    background-color: aqua;
+}
+
+span{
+    background-color: red;
+    display: block;
+}
+
+div{
+    display:inline;
+}

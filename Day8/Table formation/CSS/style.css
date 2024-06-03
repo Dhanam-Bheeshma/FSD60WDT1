@@ -1,0 +1,6 @@
+div > form{
+    width: 50%;
+    border: 5px rgb double;
+    margin: 20px auto;
+    padding: 20px;
+}

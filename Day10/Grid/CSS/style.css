@@ -1,0 +1,11 @@
+.grid-container{
+    border: 5px solid burlywood;
+    display: grid;grid-template-columns: 12px 12px 12px;
+    grid-template-rows: 12px 12px 12px;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,120px);
+}
+div{
+    display:block;
+    unicode-bidi:isolate;
+}

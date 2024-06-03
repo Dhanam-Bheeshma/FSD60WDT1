@@ -1,0 +1,17 @@
+.nav{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items:center;
+    justify-content: space-between;
+    background-color: burlywood;
+    padding: 0 15px;
+}
+.btn{
+    padding: 8px 10px;
+    font-size: large;
+    border-radius: 25px;
+}
+
+.dropdown{
+    /*position: relative; */
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div>
+<form onsubmit="hello">
+    <div class="form-input">
+    <label for="username">User Name</label>
+   <input type="text" 
+   name="name" 
+   id="username"
+    placeholder="Username" 
+    maxlength="25"
+    required/>
+</div>
+
+<div class="form-input">
+   <label for="password">Password</label>
+   <input type="password" 
+   name="password" 
+   id="password"
+    placeholder="Password" required>
+</div>
+
+<div class="form-input">
+   <!-- <button type="submit">Login</button>-->
+    <!--<button type="reset">Clear</button>-->
+    <input type="submit" value="Login">
+    <input type="reset" value="Clear">
+</div>
+</form>
+</div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

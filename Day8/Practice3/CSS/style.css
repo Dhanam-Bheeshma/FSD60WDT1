@@ -1,0 +1,12 @@
+div,section,article{
+    border: 2px solid black;
+    margin: 10px;
+    }
+
+    section{
+        border-color: red;
+    }
+
+    article{
+        border-color: blueviolet;
+    }

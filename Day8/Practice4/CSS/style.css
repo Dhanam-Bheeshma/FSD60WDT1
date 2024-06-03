@@ -1,0 +1,17 @@
+div > form{
+    width: 50%;
+    border: 5px double black;
+    margin: auto;
+    padding: 20px;
+}
+
+.form-input{
+ display: flex;
+ flex-direction: column;
+ flex-wrap : nowrap;
+ line-height: 1.5em;
+}
+
+.form-input > :last-child{
+    flex-direction: row;
+}

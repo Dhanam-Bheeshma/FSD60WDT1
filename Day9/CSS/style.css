@@ -1,0 +1,11 @@
+body>*{
+    margin-top: 10px;
+}
+
+marquee > ul{
+    display: flex;
+    gap: 10px;
+    li{
+        margin: 10px;
+    }
+}
