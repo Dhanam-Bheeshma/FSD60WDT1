@@ -1,0 +1,29 @@
+.box-1{
+   border-color: black;
+   background-color: aqua;
+   border-width: 2px;
+   border-style: solid;
+   display: inline-block;
+   width: 100px;
+   height: 100px;
+}
+
+.box-2{
+    border-color: black;
+    background-color: rgb(212, 10, 138);
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+ }
+
+ .box-3{
+    border-color: black;
+    background-color: rgb(221, 255, 0);
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+ }

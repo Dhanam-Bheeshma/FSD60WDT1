@@ -1,0 +1,27 @@
+.textarea-container{
+    >*{
+
+    }
+
+
+.container{
+    border: 1px solid #d9dbdf;
+    border-radius: 15px;
+    background-color: #fffdff;
+    width: 60vh;
+    padding: 5vmin;
+
+
+#myTextArea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: #3aa5ae0;
+}
+p{
+    padding-right: 10%;
+    width: 100%;
+    text-align: right;
+}
+}
+}
